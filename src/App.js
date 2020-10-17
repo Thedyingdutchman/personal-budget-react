@@ -14,8 +14,9 @@ import Footer from './Footer/Footer';
 import AboutPage from './AboutPage/AboutPage';
 import LoginPage from './LoginPage/LoginPage';
 import Chart from './Chart/Chart';
-import SimplePieChart from './D3JS/PieClass';
+//import SimplePieChart from './D3JS/PieClass';
 
+//For some reason the text shows up multiple times on each page
 
 function App() {
   return ( 
@@ -41,7 +42,7 @@ function App() {
       </div>
       <HomePage/>
       <Chart/>
-      <SimplePieChart/>
+      {/* <SimplePieChart/> */} //Couldnt sync with the Pie Class
       <Footer/>
     </Router>
     
