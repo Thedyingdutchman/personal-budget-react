@@ -1,6 +1,8 @@
 import React from 'react';
 
 
+
+
 function HomePage() {
   return (
     <div className="container center">
@@ -55,19 +57,14 @@ function HomePage() {
                 </p>
             </div>
     
-            <div className="text-box">
-                <h1>Results</h1>
-                <p>
-                    People who stick to a financial plan, budgeting every expense, get out of debt faster!
-                    Also, they to live happier lives... since they expend without guilt or fear... 
-                    because they know it is all good and accounted for.
-                </p>
-            </div>
     
             <div className="text-box">
                 <h1>Chart</h1>
                 <p>
-                    <canvas id="myChart" width="400" height="400"></canvas>
+                   <canvas id="myChart" width="500" height="500"></canvas>
+                
+                <h1>D3JS</h1>
+                    <canvas id="label" width="500" height="500"></canvas>
                 </p>
             </div>
 
