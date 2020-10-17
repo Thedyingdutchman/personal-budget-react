@@ -11,7 +11,7 @@ export const SimplePieChart = () => {
 
   return (
     <svg height={height} width={width}>
-      <g transform={translate({400/2}, {400/2})}>
+      <g transform={'translate(${width / 2},${height / 2})'}>
         <Slice pie={pie} />
       </g>
     </svg>
