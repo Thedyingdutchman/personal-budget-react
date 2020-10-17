@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as d3 from 'd3';
 
-const data = [1, 2, 3, 4];
+const data = [25, 375, 110, 50, 75, 65, 150];
 
 export const SimplePieChart = () => {
   const height = 400;
@@ -11,7 +11,7 @@ export const SimplePieChart = () => {
 
   return (
     <svg height={height} width={width}>
-      <g transform={'translate(${width / 2},${height / 2})'}>
+      <g transform={translate({400/2}, {400/2})}>
         <Slice pie={pie} />
       </g>
     </svg>
@@ -29,6 +29,6 @@ export const SimplePieChart = () => {
     return pie.map((slice, index) => {
       let sliceColor = interpolate(index / (pie.length - 1));
 
-      return <path d={arc(slice)} fill={sliceColor} />;
+      return <data d={arc(slice)} fill={sliceColor} />;
     });
   };

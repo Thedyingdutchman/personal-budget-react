@@ -16,7 +16,7 @@ import LoginPage from './LoginPage/LoginPage';
 import Chart from './Chart/Chart';
 //import SimplePieChart from './D3JS/PieClass';
 
-//For some reason the text shows up multiple times on each page
+//For some reason the text shows up multiple times on each
 
 function App() {
   return ( 
